@@ -26,11 +26,15 @@ App filtering is a parent management plug-in based on OpenWrt, which supports ap
 1. Make the application filtering device the main route  
 2. Turn off software and hardware acceleration, advertising filtering, QOS, multi-WAN and other modules related to nf_conn mark  
 3. Turn on application filtering and select the app that needs to be filtered to take effect  
+4. Add Block Address to /etc/appfilter/feature.cfg (OpenAppFilter/open-app-filter/files/feature.cfg) 
 
 ### 使用说明
 1. 将应用过滤设备做主路由  
 2. 关闭软硬加速、广告过滤、QOS、多WAN等涉及到nf_conn mark的模块  
 3. 开启应用过滤并选择需要过滤的app即可生效  
+4. 添加自定义屏蔽地址到 /etc/appfilter/feature.cfg (OpenAppFilter/Open-app-filter/files/feature.cfg)
+
+
 
 ### Compiling log 编译过程详情
 
